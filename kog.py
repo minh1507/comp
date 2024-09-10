@@ -3,13 +3,13 @@ import subprocess
 
 def print_help():
     print("Usage:")
-    print("  kog h                    Show this help message")
-    print("  kog all                  Run 'git add .'")
+    print("  kog h                     Show this help message")
+    print("  kog all                   Run 'git add .'")
     print("  kog commit \"message\"    Run 'git commit -m \"message\"'")
-    print("  kog commit -a            Run 'git commit --amend'")
-    print("  kog sw fix               Run 'git checkout fix'")
-    print("  kog sw -b fix            Run 'git checkout -b fix'")
-    print("  kog push [branch]        Run 'git push -u origin [branch]' or 'git push -u origin current-branch'")
+    print("  kog commit -a             Run 'git commit --amend'")
+    print("  kog sw fix                Run 'git checkout fix'")
+    print("  kog sw -b fix             Run 'git checkout -b fix'")
+    print("  kog push [branch]         Run 'git push -u origin [branch]' or 'git push -u origin current-branch'")
 
 def execute_command(command):
     try:
